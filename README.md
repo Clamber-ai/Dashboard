@@ -1,87 +1,81 @@
-# Clamber.ai - Job Application Automation Platform
+# Clamber.ai - AI-Powered Interview Platform
 
-Clamber.ai is an innovative platform designed to streamline and automate the job application process, making it easier for job seekers to manage their applications and increase their chances of success.
+Clamber.ai is a modern, AI-powered interview platform that helps candidates prepare for and excel in their interviews. The platform provides real-time assistance, mock interviews, and comprehensive interview preparation tools.
 
-## 🌟 Features
+## Features
 
-- **Automated Job Applications**: Intelligent automation for submitting job applications across multiple platforms
-- **Modern Web Interface**: Clean and intuitive user interface built with Next.js and Tailwind CSS
-- **AI-Powered Assistance**: Smart agents that help optimize your job search and application process
-- **Application Tracking**: Keep track of all your job applications in one place
+- **AI Interview Copilot™**: Real-time guidance during interviews
+- **Mock Interviews**: Practice with AI interviewers tailored to your target role
+- **Technical Support**: Get help with coding challenges and technical questions
+- **Real-time Coaching**: Receive instant feedback and suggestions
+- **Comprehensive Question Bank**: Access to questions from top companies
+- **Seamless Integration**: Works with popular meeting platforms like Zoom and Teams
 
-## 🏗️ Project Structure
+## Tech Stack
 
-The project is organized into three main components:
+- **Frontend**: Next.js 15, React 19
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI
+- **Form Handling**: React Hook Form
+- **Validation**: Zod
+- **Charts**: Recharts
+- **Animations**: Tailwind Animate
+- **TypeScript**: For type safety
 
-### 1. Website (Frontend)
-- Built with Next.js, TypeScript, and Tailwind CSS
-- Modern, responsive user interface
-- Seamless user experience for job seekers
-- Located in the `/Website` directory
-
-### 2. AI Agents (Backend)
-- Python-based intelligent automation
-- Job application processing and optimization
-- Smart decision-making algorithms
-- Located in the `/Ai Agents` directory
-
-### 3. Designs
-- UI/UX design assets and mockups
-- Brand guidelines and resources
-- Located in the `/Designs` directory
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- Python 3.8+
-- pnpm (for frontend package management)
 
-### Frontend Setup
+- Node.js (v18 or higher)
+- pnpm (recommended) or npm
+
+### Installation
+
+1. Clone the repository:
 ```bash
-cd Website
+git clone https://github.com/yourusername/clamber.ai.git
+cd clamber.ai
+```
+
+2. Install dependencies:
+```bash
 pnpm install
+```
+
+3. Start the development server:
+```bash
 pnpm dev
 ```
 
-### Backend Setup
-```bash
-cd "Ai Agents"
-pip install -r requirements.txt
-python main.py
+The application will be available at `http://localhost:3000`
+
+## Project Structure
+
+```
+├── app/              # Next.js app directory
+├── components/       # Reusable UI components
+├── hooks/           # Custom React hooks
+├── lib/             # Utility functions and configurations
+├── public/          # Static assets
+├── styles/          # Global styles
+└── types/           # TypeScript type definitions
 ```
 
-## 🔧 Configuration
+## Development
 
-1. Copy the example environment file:
-```bash
-cd "Ai Agents"
-cp .env.example .env
-```
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint
 
-2. Configure your environment variables in the `.env` file
+## Contributing
 
-## 💻 Tech Stack
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Frontend
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Shadcn UI Components
+## License
 
-### Backend
-- Python
-- AI/ML Libraries
-- Automation Tools
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contact
 
-We welcome contributions to Clamber.ai! Please feel free to submit issues and pull requests.
-
-## 📝 License
-
-This project is proprietary and confidential. All rights reserved.
-
-## 📞 Support
-
-For support or inquiries, please open an issue in the repository. 
+For any queries or support, please reach out to us at [contact@clamber.ai](mailto:contact@clamber.ai) 
